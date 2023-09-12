@@ -1,2 +1,3 @@
 # Crypto-Clustering
 Unsupervised Learning
+In this Python script, cryptocurrency market data is analyzed using K-Means clustering and Principal Component Analysis (PCA). The data is first standardized, and the optimal number of clusters (k) is determined using both the original data and PCA-transformed data. The best k value is found to be 4 in both cases. Cryptocurrencies are then clustered using K-Means based on both the original and PCA data, and the results are visualized through scatter plots. The impact of using fewer features (PCA) is demonstrated by showing that the clusters are visually clearer and more distinct, making it easier to interpret the data.
